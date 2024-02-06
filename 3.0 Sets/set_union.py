@@ -1,0 +1,5 @@
+n = input()
+s = set(input().split())
+n = input()
+k = set(input().split())
+print(len(s|k))
