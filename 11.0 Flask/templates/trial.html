@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="">
+    <title>Login using google</title>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <link rel="stylesheet" href="../static/css/style.css">
+  </head>
+<body>
+    <html>
+  <body>
+    <div class="googleLogin">
+      <div id="g_id_onload"
+          data-client_id="204262850104-0ali0oakr8rs8e0d0b8097rk61l65ei8.apps.googleusercontent.com"
+          data-callback="handleGoogleLogin">
+      </div>
+      <div class="g_id_signin" data-type="standard"></div>
+    </div>
+    <button type="button" id="testreq">Test authorization</button>
+    <div class="logout collapse">
+      <button type="button" id="logoutBtn">Logout</button>
+    </div>
+    <div id="message">Not logged in</div>
+    <script src="../static/trial.js"></script>
+  </body>
+</html>
